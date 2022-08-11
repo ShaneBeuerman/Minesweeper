@@ -212,6 +212,7 @@ public class main {
      */
     private static class rightClick extends MouseAdapter {
 
+        @Override
         public void mouseClicked(MouseEvent e) {
             if (e.getModifiers() == MouseEvent.BUTTON3_MASK) {
                 Object source = e.getSource();
